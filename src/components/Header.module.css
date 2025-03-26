@@ -1,0 +1,20 @@
+.header {
+    background-color: #202024;
+    display: flex;
+    justify-content: center; 
+    gap: 0.50rem;  
+    padding: 1.25rem 0; 
+}
+
+.header img{
+    width: 2rem;
+    width: 1.75rem;
+}
+
+.header strong {
+    line-height: 160%;
+    color: var(--gray7);
+    font-weight: 700;
+    font-size: 1.2rem;
+    align-self: center;
+}
