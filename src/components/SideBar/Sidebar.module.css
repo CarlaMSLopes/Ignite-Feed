@@ -1,0 +1,52 @@
+.sidebar {
+    background-color: var(--gray2);
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar footer {
+    border-top: 1px solid var(--gray3);
+    margin-top: 1.5rem;
+    padding: 1.5rem 2rem 2rem;
+}
+
+.sidebar footer  a {
+    width: 12rem;
+    height: 3.125rem;
+    padding: 0 1.50rem;
+    background-color: none;
+    border: solid 0.125rem var(--green);
+    border-radius: 0.5rem;
+
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--green);
+    text-wrap: nowrap;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.sidebar footer a:hover {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.iconEditar {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--white);
+}
+
+.iconEditar:hover {
+    color: var(--white);
+}
