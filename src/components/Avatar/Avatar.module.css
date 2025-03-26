@@ -1,0 +1,9 @@
+.avatar {
+    position: relative;
+    top: -2rem; 
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid var(--green);
+    border-radius: 5px;
+    object-fit: cover;
+}   
