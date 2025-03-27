@@ -1,0 +1,10 @@
+.textPost span{
+    color: var(--green);
+    font-weight: 700;
+}
+
+.textPost {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: solid 1px var(--gray3);
+}

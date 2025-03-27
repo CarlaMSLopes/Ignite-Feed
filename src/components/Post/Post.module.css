@@ -1,0 +1,47 @@
+.feedBar {
+    background-color: var(--gray2);
+    border-radius: 8px;
+    padding: 2.5rem;
+}
+
+.feedBar h1 {
+    font-size: 1rem;
+    color: var(--gray7);
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.feedBar header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.profile div strong {
+    color: var(--gray7);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 160%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.profile div span {
+    color: var(--gray5);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.feedBar header h1 {
+    color: var(--gray5);
+    font-weight: 400;
+    font-size: 0.8rem;
+    justify-items: flex-end;
+}
