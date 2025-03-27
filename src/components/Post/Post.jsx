@@ -1,5 +1,6 @@
 import { Avatar } from "../Avatar/Avatar";
 import { CaixaComentario } from "../CaixaComentario/CaixaComentario";
+import { Comentario } from "../Comentario/Comentario";
 import { Conteudo } from "../Conteudo/Conteudo";
 import styles from "../Post/Post.module.css";
 
@@ -20,6 +21,7 @@ export function Post() {
       <Conteudo />      
       <h1>Deixe seu feedback</h1>
       <CaixaComentario />
+      <Comentario />
     </main>
   );
 }
