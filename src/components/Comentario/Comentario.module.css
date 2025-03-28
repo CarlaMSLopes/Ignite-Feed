@@ -1,65 +1,74 @@
-.comentario {
+/* header do comentário */
+.headerComentario div{
     display: flex;
-    flex-direction: row;
-    padding-top: 2rem;
-    gap: 1rem;
-    width: 100%;
+    flex-direction: column;
 }
 
-.boxContent {
+.headerComentario div strong {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color:var(--gray7);
+}
+
+.headerComentario div span {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color:var(--gray5);
+}
+
+.headerComentario button {
+    font-size: 1.5rem;
+    font-weight: 400;
+    border: none;
+    background-color: transparent;
+    color: var(--gray5);
+}
+
+.headerComentario button:hover {
+    color: var(--red);
+}
+
+/* background box */
+
+.comentario{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.comentarioSide {
+    width: 100%;
+}
+.bgComentario {
     background-color: var(--gray3);
     border-radius: 8px;
     padding: 1rem;
     width: 100%;
 }
 
-.boxContent header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.boxContent div p{
-    font-weight: 400;
-    font-size: 0.875rem;
-    color: var(--gray7);
+.bgComentario p{
     padding-top: 1rem;
-}
-
-.namePerfil {
-    display: flex;
-    flex-direction: column;
-    gap: -1rem;
-}
-
-.namePerfil strong{
-   font-size: 0.875rem;
-   font-weight: 700;
-   color: var(--gray7);
-}
-
-.namePerfil span{
-    font-size: 0.75rem;
+    font-size:0.875rem;
     font-weight: 400;
-    color: var(--gray5);
+    color: var(--gray6);
 }
 
-.boxContent button {
+.iconLike {
+    font-size: 1.25rem;
+    color: var(--gray5);
+    background-color: transparent;
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: transparent;
-    border:none;
+    gap: 0.5rem;
 }
-
-.iconTrash {
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: var(--gray5);
+.iconLike:hover  {
+    font-size: 1.25rem;
+    color: var(--gray7);
 }
-
-.iconTrash:hover {
-    color: var(--red);
+.iconLike:focus  {
+    font-size: 1.25rem;
+    color: var(--green);
 }
